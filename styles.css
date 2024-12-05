@@ -1,0 +1,124 @@
+/* General Syles */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* navbar */
+.navbar{
+    background: color #333;
+
+}
+.navbar .nav-link {
+    color:#ffffffaa;
+}
+
+.navbar .nav-link:hover{
+    color:#4f97f0;
+    text-decoration: underline;
+}
+
+/* card */
+.card{
+    border:none;
+    box-shadow: 0 4px 6px rgba(rgb(174, 0, 255), rgb(0, 124, 128),
+     rgb(115, 0, 255), alpha);
+     transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* buttons */
+button, .btn{
+    background-color: #007bff;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+/* Js css work and life table */
+#worklifeLists {
+max-width: 800px;
+margin: 0 auto; /*center align */
+padding: 20px;
+background-color: #f9f9f9; 
+border-radius:10px; /* rounded corners */
+box-shadow: 0 4px 8px rgb(0,0,0,.01); /*shadow */
+
+}
+
+/* style for individual list items*/
+#worklifeLists li {
+    list-style-type: none; /* remove bullet */
+    padding: 15px;
+    margin-bottom:15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:0 2px 4px rgba(0,0,0, 0.5) /*shadow for depth */
+
+}
+
+/* styling the event name */
+#worklifeLists h5 {
+    margin: 0 0 10px;
+    font-size: 1.2 rem;
+    color: #2c3e50;font-weight:bold;
+     
+}
+
+/* subject */
+#worklifeLists p:last-child {
+    font-weight:bold;
+    color: #27ae60; /*green for 'yes' */ 
+
+}
+
+#worklifeLists p:last-child:contains('No'){
+    color:#e74c3c  
+ 
+
+}
+
+/*carousel*/
+.carousel img {
+    border-radius: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color:#fff;
+    padding: 1rem 0;
+    font-size: 0.9rem
+
+}
+
+/*contact form*/
+form input, form textarea{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form input:focus, form textarea:focus{
+    border-color: #007bff;
+    outline: none;
+
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    header h1 { 
+        font-size: 2 rem;
+}
+    header p{
+        font-size: 1 rem;
+    }
+}
+
+
+
+
